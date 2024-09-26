@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+/* Aligning global Div */
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+img {
+    padding-left: 1rem;
+}
+
+h1 {
+    color: #0097b2;
+}
+
+/* Header styling */
+.header {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left; /* Align logo to the left */
+}
+
+/* Body styling */
+.container {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 25%;
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Div used to align multiple items in a singular row */
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+form {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+
+#email, #password {
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(125, 125, 125, 0.2);
+}
+
+.button {
+    width: 50%;
+    color: white;
+    cursor: pointer;
+    background-color:#0097b2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#submit-button {
+    margin: 0 1% 0 2%;
+}
+
+#clear-button {
+    margin: 0 2% 0 1%;
+}
+
+.button:hover {
+    color: #0097b2;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
